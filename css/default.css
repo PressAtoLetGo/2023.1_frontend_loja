@@ -56,29 +56,38 @@
 
 .center{
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 60px;
 }
 
 .font-style{
     color: orange;
     font-family: "Great Vibes", Sans-serif;
+    margin-bottom: -5px;
 }
 
 .font-style2{
     font-family: "Arvo", Sans-serif;
+    line-height: 50px;
 }
 
 .text-style{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-.padding{
+.bottom-padding{
     padding-bottom: 25px;
 }
-
 .img-padding{
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .borderlink{
@@ -87,7 +96,7 @@
     border-radius: 3px;
 }
 
-.col-12 .padding::first-letter{
+.col-12 .bottom-padding::first-letter{
     color: orange;
     font-size: 25px;
 }
