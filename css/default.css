@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Great+Vibes&family=Nunito:wght@300;400;600;800&display=swap');
 
 *{
     margin: 0;
@@ -54,6 +54,44 @@
     font-size: 50px;
 }
 
+.center{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.font-style{
+    color: orange;
+    font-family: "Great Vibes", Sans-serif;
+}
+
+.font-style2{
+    font-family: "Arvo", Sans-serif;
+}
+
+.text-style{
+    text-align: center;
+}
+
+.padding{
+    padding-bottom: 25px;
+}
+
+.img-padding{
+    padding-bottom: 15px;
+}
+
+.borderlink{
+    padding: 12px 20px;
+    border: solid 2px orange;
+    border-radius: 3px;
+}
+
+.col-12 .padding::first-letter{
+    color: orange;
+    font-size: 25px;
+}
+
 body{
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
@@ -82,4 +120,8 @@ header nav a{
 header nav a:hover{
     border-bottom: solid 4px #ddb99d;
     color: #eee;
+}
+
+h3{
+    letter-spacing: 3px;
 }
