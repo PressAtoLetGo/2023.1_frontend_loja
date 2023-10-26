@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Great+Vibes&family=Nunito:wght@300;400;600;800&display=swap');
 
 *{
     margin: 0;
@@ -31,6 +31,75 @@
 .white{
     color: #eee;
 }
+.carousel-item{
+    background-color: rgb(150, 115, 133);
+    height: 400px;
+}
+
+.carousel-item .carousel-item-text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+}
+
+.font{
+    font-size: 50px;
+}
+
+.center{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.font-style{
+    color: orange;
+    font-family: "Great Vibes", Sans-serif;
+}
+
+.font-style2{
+    font-family: "Arvo", Sans-serif;
+    line-height: 50px;
+}
+
+.text-style{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bottom-padding{
+    padding-bottom: 25px;
+}
+
+.img-padding{
+    padding-bottom: 20px;
+}
+
+.borderlink{
+    padding: 12px 20px;
+    border: solid 2px orange;
+    border-radius: 3px;
+}
+
+.col-12 .bottom-padding::first-letter{
+    color: orange;
+    font-size: 25px;
+}
 
 body{
     font-family: 'Nunito', sans-serif;
@@ -60,4 +129,8 @@ header nav a{
 header nav a:hover{
     border-bottom: solid 4px #ddb99d;
     color: #eee;
+}
+
+h3{
+    letter-spacing: 3px;
 }
