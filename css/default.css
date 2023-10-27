@@ -31,6 +31,7 @@
 .white{
     color: #eee;
 }
+
 .carousel-item{
     background-color: rgb(150, 115, 133);
     height: 400px;
@@ -133,4 +134,28 @@ header nav a:hover{
 
 h3{
     letter-spacing: 3px;
+}
+
+@media screen and (max-width:991px) {
+    .logo{
+        display: none;
+    }
+    
+    .flex-nav{
+        flex-direction: column;
+    }
+
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-toggler{
+        color: #ddb99d;
+        border-color: #ddb99d;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url(/img/bars-solid.svg);
+    }    
 }
