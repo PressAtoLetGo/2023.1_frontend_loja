@@ -35,6 +35,7 @@
 .carousel-item{
     background-color: rgb(150, 115, 133);
     height: 400px;
+    padding: 1px;
 }
 
 .carousel-item .carousel-item-text{
