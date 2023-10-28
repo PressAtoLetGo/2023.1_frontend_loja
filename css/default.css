@@ -63,7 +63,7 @@
 }
 
 .font-style{
-    color: orange;
+    color: #ffaa00;
     font-family: "Great Vibes", Sans-serif;
 }
 
@@ -94,13 +94,33 @@
 
 .borderlink{
     padding: 12px 20px;
-    border: solid 2px orange;
+    border: solid 2px #ffaa00;
     border-radius: 3px;
 }
 
 .col-12 .bottom-padding::first-letter{
-    color: orange;
+    color: #ffaa00;
     font-size: 25px;
+}
+
+.form-contact input[type='text'],
+.form-contact input[type='tel'],
+.form-contact input[type='email'],
+.form-contact input[type='mensagem'],
+.form-contact textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #eee;
+    background-color: #f3eee5;
+}
+
+button{
+    padding: 10px 55px;
+    border: solid 2px #ffaa00;
+    border-radius: 3px;
+    background-color: #fff;
 }
 
 body{
